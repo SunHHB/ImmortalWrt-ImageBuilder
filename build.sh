@@ -41,7 +41,7 @@ PACKAGES="$PACKAGES luci-app-openclash"
 # alsit 组件	
 PACKAGES="$PACKAGES alist luci-i18n-alist-zh-cn"
 # mosdns 组件	
-PACKAGES="$PACKAGES luci-i18n-mosdns-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-mosdns-zh-cn"
 # XUNLEI组件
 # PACKAGES="$PACKAGES libc6-compat xunlei luci-app-xunlei luci-i18n-xunlei-zh-cn"
 # 宽带监控 Nlbwmon

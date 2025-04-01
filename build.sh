@@ -16,7 +16,7 @@ PACKAGES="$PACKAGES kmod-mt76x2u hostapd wpa-supplicant"
 # 常用软件服务
 PACKAGES="$PACKAGES luci-i18n-usb-printer-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"

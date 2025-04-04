@@ -22,7 +22,6 @@ PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-ramfree-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-cloudflared-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-socat-zh-cn"
 
 # tailscale
 PACKAGES="$PACKAGES tailscale"
@@ -53,12 +52,11 @@ PACKAGES="$PACKAGES zsh"
 # Vim 完整版，带语法高亮
 PACKAGES="$PACKAGES vim-fuller"
 # 界面翻译补全
-PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn"
+PACKAGES="$PACKAGES  luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn"
 # 移除不需要的包
 
 # 一些自定义文件
 FILES="files"
 
-# 禁用 openssh-server 的 sshd 服务和 docker 的 dockerd 服务以防止冲突
-DISABLED_SERVICES="sshd"
+
 make image PROFILE="$PROFILE" PACKAGES="$PACKAGES" FILES="$FILES" DISABLED_SERVICES="$DISABLED_SERVICES"

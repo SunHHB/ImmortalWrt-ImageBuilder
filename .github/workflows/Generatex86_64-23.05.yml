@@ -80,7 +80,7 @@ jobs:
       - name: Generate Firmware
         working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64
         run: |
-          bash build.sh
+          bash build23.05.sh
 
       - name: Upload Firmware to Artifacts
         uses: actions/upload-artifact@v4

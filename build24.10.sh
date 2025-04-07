@@ -52,7 +52,7 @@ PACKAGES="$PACKAGES zsh"
 # Vim 完整版，带语法高亮
 PACKAGES="$PACKAGES vim-fuller"
 # 界面翻译补全
-PACKAGES="$PACKAGES  luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn"
 # 移除不需要的包
 
 # 一些自定义文件

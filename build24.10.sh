@@ -22,7 +22,7 @@ PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-ramfree-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-cloudflared-zh-cn"
-
+PACKAGES="$PACKAGES luci-i18n-attendedsysupgrade-zh-cn"
 # tailscale
 PACKAGES="$PACKAGES tailscale"
 PACKAGES="$PACKAGES luci-app-tailscale"
@@ -51,6 +51,7 @@ PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 PACKAGES="$PACKAGES zsh"
 # Vim 完整版，带语法高亮
 PACKAGES="$PACKAGES vim-fuller"
+
 # 界面翻译补全
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn"
 # 移除不需要的包

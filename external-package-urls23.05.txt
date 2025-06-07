@@ -1,3 +1,0 @@
-https://github.com/SunHHB/op_x86_64/releases/download/X86_immortalwrt.git-openwrt-23.05/packages.tar.gz
-https://github.com/vernesong/OpenClash/releases/download/v0.46.079/luci-app-openclash_0.46.079_all.ipk
-https://github.com/moetayuko/openwrt-cloudflared/releases/download/2025.4.0-r1/cloudflared_2025.4.0-1_x86_64.ipk

@@ -27,6 +27,10 @@ PACKAGES="$PACKAGES luci-i18n-attendedsysupgrade-zh-cn"
 PACKAGES="$PACKAGES tailscale"
 PACKAGES="$PACKAGES luci-app-tailscale"
 PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
+# fchomo
+PACKAGES="$PACKAGES mihomo"
+PACKAGES="$PACKAGES luci-app-fchomo"
+PACKAGES="$PACKAGES luci-i18n-fchomo-zh-cn"
 
 #PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
 # upnp

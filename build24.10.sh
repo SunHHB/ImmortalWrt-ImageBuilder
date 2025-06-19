@@ -41,8 +41,6 @@ PACKAGES="$PACKAGES luci-app-openclash"
 # PACKAGES="$PACKAGES luci-lib-docker luci-i18n-dockerman-zh-cn"
 # homeproxy 组件
 # PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
-# alsit 组件	
-PACKAGES="$PACKAGES alist luci-i18n-alist-zh-cn"
 # mosdns 组件	
 PACKAGES="$PACKAGES luci-i18n-mosdns-zh-cn"
 # XUNLEI组件
